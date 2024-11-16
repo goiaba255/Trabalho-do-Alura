@@ -1,0 +1,98 @@
+      <!DOCTYPE html>
+       <html lang="pt-BR">
+       <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="style.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+       <title>O Tesouro Secreto</title>
+       </head>
+       <body>
+         <main>
+            <div class="passo ativo" id="passo-0">
+                <img src="img/Cenario-passo0.jpg" alt="">
+                <p>Em uma viagem a um resort encontra-se, um mapa no fundo da piscina do Resort, onde nele continha um trajeto para achar um tesouro e tinha duas forma de achar o tesouro, que seria: ir a Praia do resort e cavar perto de um coqueiro ou ir na biblioteca do resort e procurar um livro especifico que contenha a proxima pista.</p>
+                <button class="btn-proximo" data-proximo="1">Ir a praia</button>
+                <button class="btn-proximo" data-proximo="2">ir a biblioteca</button>
+            </div>
+            <div class="passo" id="passo-1">
+                <img src="img/Cenario-passo1.jpg" alt="">
+                <p>Você começa sua jornada na Praia onde avista o local descrito no mapa, então voce começa a caminhar em direção ao local</p>
+                <button class="btn-proximo" data-proximo="3">Cavar perto coqueiro descrito no mapa</button>
+                <button class="btn-proximo" data-proximo="4">Desistir e voltar para o resort</button>
+            </div>
+            <div class="passo" id="passo-2">
+                <p>Chegando na Biblioteca voce caminha até as estantes a procura do livro,
+                  achando o livro voce o abre e dentro continha um pista, então voce tinha duas opções seguir a pista ou desistir e voltar ao resort
+                  </p>
+                <button class="btn-proximo" data-proximo="5">voce decide desistir e voltar ao resort</button>
+                <button class="btn-proximo" data-proximo="6">seguindo a pista</button>
+            </div>
+            <div class="passo" id="passo-3">
+                <img src="img/Cenario-passo3.jpg" alt="">
+                <p>Ao lado Coqueiro voce encontra uma pá, que estava no local de proposito para cavar no local onde estava, send uma sinalização</p>
+                <button class="btn-proximo" data-proximo="7">Cavar o local
+
+                </button>
+            </div>
+        
+            <div class="passo" id="passo-4">
+               <img src="img/Cenario-passo4.jpg" alt="">
+                <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria encontrado.
+                </p>
+            </div>
+        
+            <div class="passo" id="passo-5">
+                <img src="img/Cenario-passo4.jpg" alt="">
+                <p>Voltando ao resort voce decide ir embora e arruma suas malas e volta para casa.</p>
+                <button class="btn-proximo" data-proximo="7">voltando para casa</button>
+            </div>
+        
+            <div class="passo" id="passo-6">
+                <p>Seguindo a pista voce se depara com a praia do resort e um local marcado para cavar</p>
+                <button class="btn-proximo" data-proximo="8">caminhando até o local</button>
+            </div>
+        
+            <div class="passo" id="passo-7">
+               
+               <p> Na ida ao local voe encontra um buraco que tinha um cofre, porém sem a chave e voce tinha duas opções cavar um buraco ao lado ou desistir e voltar para o resort</p>
+               <img src="img/Cenario-passo7.avif" alt="">
+               <button class="btn-proximo" data-proximo="9">Procurar a chave, cavando outro buraco </button>
+                <button class="btn-proximo" data-proximo="10">Pegar os itens e voltar ao resort</button>
+            </div>
+        
+            <div class="passo" id="passo-8">
+                <img src="img/Cenario-passo7.avif" alt="">
+                <p>Seguindo a pista voce se depara com a praia do resort e um local marcado para cavar</p>
+                <button class="btn-proximo" data-proximo="7">caminhando até o local</button>
+            </div>
+        
+            <div class="passo" id="passo-9">
+                <p>Então voce decide cavar um buraco ao lado do anterior e acha a chave</p>
+                <button class="btn-proximo" data-proximo="11">Após isto voce decide abrir o cofre</button>
+            </div>
+        
+            <div class="passo" id="passo-10">
+                <img src="img/Cenario-passo10.webp" alt="">
+                <p>Então voce decide cavar um buraco ao lado do anterior e acha a chave
+                </p>
+                <button class="btn-proximo" data-proximo="12">Após isto voce decide abrir o cofre</button>
+            </div>
+        
+            <div class="passo" id="passo-11">
+                <img src="img/Cenario-passo11.jpg" alt="">
+                <p>abrindo o cofre dentro continha uma grande quantidade de joias e dinheiro</p>
+            </div>
+        
+            <div class="passo" id="passo-12">
+                <img src="img/Cenario-passo12.jpg" alt="">
+                <p>Retornando voce decide ir embora, após a decisão voce arruma a mala e volta para casa, anos depois aparece em um noticiario, de uma pessoa que     conseguiu achar o tesouro então voce fica frustrado por não ter tido está oportunidade</p>
+                <button class="btn-proximo" data-proximo="11">Após isto voce decide desligar o noticiario</button>
+            </div>
+        </main>
+        <script src="script.js"></script>
+
+</body>
+</html>
